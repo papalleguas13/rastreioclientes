@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rastreamento de Encomendas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Rastreamento de Encomendas</h1>
+    </header>
+    <main>
+        <section class="tracking">
+            <h2>Digite o código de rastreamento</h2>
+            <input type="text" id="trackingCode" placeholder="Código de rastreamento">
+            <button onclick="trackOrder()">Rastrear</button>
+        </section>
+        <section id="trackingResult" class="result">
+            <!-- Resultados do rastreamento aparecerão aqui -->
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
